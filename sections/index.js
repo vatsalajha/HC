@@ -6,6 +6,7 @@ import WhatsNew from './WhatsNew';
 import Analytics from './Analytics';
 import Whistleblower from './Whistleblower';
 import Feedback from './Feedback';
+import Nextpage from './Nextpage';
 
 export {
   Hero,
@@ -16,4 +17,5 @@ export {
   Analytics,
   Whistleblower,
   Feedback,
+  Nextpage,
 };

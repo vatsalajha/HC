@@ -58,27 +58,29 @@ const Navbar = () => {
       whileInView='show'
       className={`${styles.xPaddings} py-8 relative`}
     >
-      <div className='absolute w-[50%] inset-0 gradient-01' />
+      <div className="absolute w-[50%] inset-0 gradient-01" />
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
       >
         <img
           src='/search.svg'
           alt='search'
-          className='w-[24px] h-[24px] object-contain'
+          className="w-[24px] h-[24px] object-contain"
         />
-        <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>
+        <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
           ALTEYE
         </h2>
-        <div className='flex flex-col items-center justify-center'>
+        <div className="flex flex-col items-center justify-center">
           <button onClick={connectWallet}>
             <img
               src='/metamask.svg'
               alt='metamask'
-              className='w-[24px] h-[24px] object-contain '
+              className="w-[24px] h-[24px] object-contain"
             />
           </button>
-            <p>Connected</p>
+          <h6 className="font text-[10px] leading-[30px] text-white">
+            Connected
+          </h6>
         </div>
       </div>
     </motion.nav>

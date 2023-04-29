@@ -93,6 +93,51 @@ export const insights = [
   },
 ];
 
+export const tabless = [
+  {
+    // imgUrl: '/CityDev.png',
+    title: 'Sector',
+    subtitle:
+        ' Manufacturing ',
+  },
+  {
+    // imgUrl: '/fibercable.png',
+    title: 'Sub Sector',
+    subtitle:
+        ' xxx ',
+  },
+  {
+    // imgUrl: '/forest.png',
+    title: 'State',
+    subtitle:
+        'Gujurat',
+  },
+  {
+    // imgUrl: '/forest.png',
+    title: 'Project Start Date',
+    subtitle:
+        ' 123',
+  },
+  {
+    // imgUrl: '/forest.png',
+    title: 'Project Completion Date',
+    subtitle:
+        ' 345 ',
+  },
+  {
+    // imgUrl: '/forest.png',
+    title: 'Promoter/Sponsor Type',
+    subtitle:
+        ' Me ',
+  },
+  {
+    // imgUrl: '/forest.png',
+    title: 'Project Status',
+    subtitle:
+        ' Done ',
+  },
+];
+
 export const socials = [
   {
     name: 'twitter',

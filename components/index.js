@@ -5,6 +5,7 @@ import StartSteps from './StartSteps';
 import NewFeatures from './NewFeatures';
 import WhistleblowerCard from './WhistleblowerCard';
 import Footer from './Footer';
+import PageCard from './PageCard';
 
 export {
   Navbar,
@@ -15,4 +16,5 @@ export {
   ExploreCard,
   WhistleblowerCard,
   Footer,
+  PageCard,
 };

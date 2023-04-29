@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+import Link from 'next/link';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
@@ -37,11 +37,15 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           Project
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
-          <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-            <span className="font-normal text-[16px] text-white">
-              {title}
-            </span>
-          </button>
+          <Link href="/nextPage">
+            {/* <a> */}
+            <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+              <span className="font-normal text-[16px] text-white">
+                {title}
+              </span>
+            </button>
+            {/* </a> */}
+          </Link>
         </h2>
       </div>
     )}

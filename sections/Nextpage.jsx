@@ -20,7 +20,10 @@ const Nextpage = () => (
       <TitleText title={<>Semiconductor Plant.</>} textStyles="text-center" />
       <div className="mt-[50px] flex flex-wrap">
         {tabless.map((item, index) => (
-          <PageCard key={`tabless-${index}`} {...item} index={index + 1} />
+          <div key={`tabless-${index}`} className="w-1/2 p-2">
+            <PageCard {...item} index={index + 1} />
+          </div>
+          // <PageCard key={`tabless-${index}`} {...item} index={index + 1} />
         ))}
       </div>
     </motion.div>

@@ -3,41 +3,49 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/R&DSemiconductor.png',
     title: 'Semiconductor Plant',
+    linkUrl: '',
   },
   {
     id: 'world-2',
     imgUrl: '/Solar&WindPark.png',
     title: 'Renewable Energy Solutions',
+    linkUrl: '',
   },
   {
     id: 'world-3',
     imgUrl: '/HRD.png',
     title: 'Skill Development',
+    linkUrl: '',
   },
   {
     id: 'world-4',
     imgUrl: '/PlantManufacturing.png',
     title: 'Manufacturing Plant',
+    linkUrl: '',
   },
   {
     id: 'world-5',
     imgUrl: '/CultureCenter.png',
     title: 'Cultural Center Development',
+    linkUrl: '',
   },
   {
     id: 'world-6',
     imgUrl: '/CityDev.png',
     title: 'New City Development',
+    linkUrl: '',
   },
   // {
   //   id: 'world-7',
   //   imgUrl: '/fibercable.png',
   //   title: 'Fiber Cable',
+  //   linkUrl: '',
   // },
   // {
   //   id: 'world-8',
   //   imgUrl: '/forest.png',
   //   title: 'Afforestation',
+  //   linkUrl: '',
   // },
 ];
 
@@ -67,19 +75,19 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/CityDev.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    title: 'City Development',
     subtitle:
         'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
   {
     imgUrl: '/fibercable.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    title: 'Fiber Cable',
     subtitle:
         'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
   },
   {
     imgUrl: '/forest.png',
-    title: 'With one platform you can explore the whole world virtually',
+    title: 'Forests',
     subtitle:
         'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
   },

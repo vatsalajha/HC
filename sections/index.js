@@ -3,8 +3,8 @@ import About from './About';
 import Explore from './Explore';
 import GetStarted from './GetStarted';
 import WhatsNew from './WhatsNew';
-import World from './World';
-import Insights from './Insights';
+import Analytics from './Analytics';
+import Whistleblower from './Whistleblower';
 import Feedback from './Feedback';
 
 export {
@@ -13,7 +13,7 @@ export {
   Explore,
   GetStarted,
   WhatsNew,
-  World,
-  Insights,
+  Analytics,
+  Whistleblower,
   Feedback,
 };

@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css__":{"/Users/vatsalajha/Documents/HackcorruptionProject/HC/HC/app/page":["/Users/vatsalajha/Documents/HackcorruptionProject/HC/HC/styles/globals.css"]},"/Users/vatsalajha/Documents/HackcorruptionProject/HC/HC/app/layout.js":["/Users/vatsalajha/Documents/HackcorruptionProject/HC/HC/styles/globals.css"]}

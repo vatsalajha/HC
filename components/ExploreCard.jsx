@@ -37,7 +37,11 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           Project
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
-          {title}
+          <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+            <span className="font-normal text-[16px] text-white">
+              {title}
+            </span>
+          </button>
         </h2>
       </div>
     )}

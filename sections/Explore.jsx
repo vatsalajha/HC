@@ -27,6 +27,7 @@ const Explore = () => {
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
+            // Idhar link to next page ?
             <ExploreCard
               key={world.id}
               {...world}

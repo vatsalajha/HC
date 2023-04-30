@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 import { fadeIn } from '../utils/motion';
 
@@ -24,15 +25,15 @@ const WhistleblowerCard = ({ imgUrl, title, subtitle, index }) => (
         </p>
       </div>
 
-      <div
-        className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white"
-      >
-        <img
-          src="/arrow.svg"
-          alt="arrow"
-          className="w-[40%] h-[40%] object-contain"
-        />
-      </div>
+      <Link href="/complaint">
+        <div className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white">
+          <img
+            src="/arrow.svg"
+            alt="arrow"
+            className="w-[40%] h-[40%] object-contain"
+          />
+        </div>
+      </Link>
     </div>
   </motion.div>
 );

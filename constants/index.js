@@ -75,22 +75,22 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/CityDev.png',
-    title: 'City Development',
+    title: 'Register Your Complaint',
     subtitle:
         'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
-  {
-    imgUrl: '/fibercable.png',
-    title: 'Fiber Cable',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/forest.png',
-    title: 'Forests',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
-  },
+  // {
+  //   imgUrl: '/fibercable.png',
+  //   title: 'Fiber Cable',
+  //   subtitle:
+  //       'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+  // },
+  // {
+  //   imgUrl: '/forest.png',
+  //   title: 'Forests',
+  //   subtitle:
+  //       'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+  // },
 ];
 
 export const tabless = [

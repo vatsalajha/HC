@@ -6,7 +6,7 @@ import styles from '../styles';
 import { TitleText, TypingText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
-const Analytics = () => (
+const Complaint = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -19,7 +19,7 @@ const Analytics = () => (
       <TypingText title="| Analytics" textStyles="text-left" />
       <TitleText
         title={(
-          <>How much corruption we reduced ?
+          <>Your complaint ?
           </>
         )}
         textStyles="text-center"
@@ -45,14 +45,8 @@ const Analytics = () => (
           Percentage of tax that's usage is tracked
         </span>
       </motion.p>
-      <motion.div
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        className="relative mt-[68px] flex w-full h-[550px]"
-      >
-        <img src="/BarGraph.png" alt="map" className="w-full h-full object-cover" />
-      </motion.div>
     </motion.div>
   </section>
 );
 
-export default Analytics;
+export default Complaint;

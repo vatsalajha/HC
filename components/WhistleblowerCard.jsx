@@ -25,7 +25,7 @@ const WhistleblowerCard = ({ imgUrl, title, subtitle, index }) => (
         </p>
       </div>
 
-      <Link href="/complaint">
+      <Link href="/Complain">
         <div className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white">
           <img
             src="/arrow.svg"
